@@ -1,0 +1,10 @@
+.header {
+    width: 1184px;
+    height: calc(52px + 28px);
+    /*outline: 2px solid sandybrown;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 176px 5fr repeat(2, min-content);
+    align-items: end;
+}
