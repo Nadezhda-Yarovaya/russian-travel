@@ -1,0 +1,12 @@
+.place__title {
+    width: 46px;
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 900; /* подкючить */
+    grid-row-start: 1;
+  grid-row-end: span 2;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  margin: 0;
+    outline: 2px solid orange;
+}

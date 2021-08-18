@@ -1,0 +1,5 @@
+.place__text {
+    grid-row: 3;
+    grid-column: 2;
+    outline: 2px solid orange;
+}
