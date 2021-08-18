@@ -1,7 +1,15 @@
+@font-face {
+    src: url(../fonts/Inter-Regular.woff2);
+    font-family: 'Inter';
+}
+
 .page {
     background-color: #2A2C2F;
     margin: 0; /* 8px body yet*/
     width: 100%;
     box-sizing: border-box;
-    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    text-rendering: optimizeLegibility; 
+
 }
