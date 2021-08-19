@@ -5,3 +5,10 @@
     grid-column: 1;
     /*border: 1px solid grey;*/
 }
+@media screen and (max-width: 768px)
+{
+    .header__logo 
+{
+    padding-left: 24px;
+}
+}

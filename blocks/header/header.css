@@ -8,3 +8,11 @@
     grid-template-columns: 176px 5fr repeat(2, min-content);
     align-items: end;
 }
+@media screen and (max-width: 768px)
+{
+    .header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

@@ -3,5 +3,7 @@
     display: grid;
     grid-template-columns: repeat(5, min-content);
     grid-column-gap: 18px;
+    padding: 0;
+    padding-left: 24px;
     /*outline: 2px solid salmon;*/
 }

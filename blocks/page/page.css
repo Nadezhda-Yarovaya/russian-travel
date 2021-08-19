@@ -13,3 +13,7 @@
     font-weight: normal;
     text-rendering: optimizeLegibility; 
 }
+@media screen and (max-width: 768px)
+{
+    
+}

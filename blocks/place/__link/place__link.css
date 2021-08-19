@@ -4,3 +4,8 @@
     font-size: 18px;
     line-height: 22px;
 }
+.place__link {
+
+text-decoration: underline;
+cursor: pointer;
+}
