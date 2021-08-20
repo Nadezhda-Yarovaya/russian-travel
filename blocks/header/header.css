@@ -5,8 +5,19 @@
     margin: 0 auto;
     box-sizing: border-box;
     display: grid;
+    padding: 28px 0 0 0;
     grid-template-columns: 176px 5fr repeat(2, min-content);
     align-items: end;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1214px)
+
+{
+    .header {
+        width: 100%;
+        margin: 0;
+        padding: 28px 48px 0 48px;
+    }
 }
 @media screen and (max-width: 768px)
 {

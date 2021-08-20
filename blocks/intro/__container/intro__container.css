@@ -1,0 +1,6 @@
+.intro__container {
+    width: 690px;
+    margin: 0;
+   /* text-align: left;*/
+    outline: 1px solid orange;
+}

@@ -8,11 +8,21 @@
     list-style-type: none;/*calc((1184px -(284px * 3))/4)*/
 }
 
+@media screen and (min-width: 769px) and (max-width: 1214px)
+{
+    .photo-grid {
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(240px, min-content)); 
+        grid-gap: 14px;
+        justify-content: center;
+    }
+}
 
 @media screen and (max-width: 768px)
 {
     .photo-grid {
         width: 100%;
-        grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); /*minmax(284px, 1fr)*/
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*minmax(284px, 1fr)*/
+        justify-content: center;
     }
 }

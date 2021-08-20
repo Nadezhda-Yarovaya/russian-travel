@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 48px;
-    grid-template-rows: calc((152px - 48px)/2) auto;
+    grid-template-rows: auto auto;
     align-items: start;
     width: 100%;
     margin-bottom: 92px;
 }
+

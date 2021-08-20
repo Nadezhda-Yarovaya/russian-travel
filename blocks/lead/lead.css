@@ -5,6 +5,16 @@
     margin-top: calc(138px - 52px - 28px);
     outline: 2px solid salmon;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1214px)
+
+{
+    .lead {
+        max-width: calc(100% - (48px * 2));
+        margin:48px;
+    }
+}
+
 @media screen and (max-width: 768px)
 {
     .lead {

@@ -2,7 +2,22 @@
     width: 460px;
     height: 460px;
     object-fit: cover;
-    grid-row: 3;
+    grid-row: 2;
     grid-column: 1;
     outline: 2px solid orange;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1214px)
+{
+    .place__image {
+        width: 440px;
+    height: 440px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .place__image {
+        width: 340px;
+    height: 340px;
+    }
 }
