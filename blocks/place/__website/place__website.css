@@ -4,3 +4,11 @@
     align-self: end;
     outline: 2px solid orange;
 }
+
+@media screen and (max-width: 321px)
+{
+    .place__website {
+        grid-row: 2;
+        grid-column: 1;
+    }
+}

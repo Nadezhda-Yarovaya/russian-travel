@@ -2,4 +2,15 @@
     grid-row: 2;
     grid-column: 2;
     outline: 2px solid orange;
+    
 }
+
+@media screen and (max-width: 321px)
+{
+    .place__text {
+        grid-row: 4;
+        grid-column: 1;
+        outline: 2px solid orange;
+        
+    }
+}    

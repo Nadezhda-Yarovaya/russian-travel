@@ -16,6 +16,19 @@ height: 580px;
     .lead__image {
         height: 480px;
         object-fit: contain;
+        
+    margin-top: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 321px)
+{
+    .lead__image {
+        width: 100%;
+        max-width: 320x;
+        height: 200px;
     }
     
 }

@@ -1,15 +1,6 @@
 .intro {
-    width: 92%;
-    min-width: 768px;
     border: 2px solid grey;
-    margin: 92px auto;
     text-align: left;
     
 }
 
-@media screen and (max-width: 768px)
-{
-    .intro {
-        width: 100%;
-    }
-}

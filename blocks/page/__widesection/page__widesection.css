@@ -1,0 +1,35 @@
+.page__widesection {
+  margin: 0 auto 92px;
+  width: 1184px;
+  
+  box-sizing: border-box;
+}
+@media screen and (min-width: 991px) and (max-width: 1024px) {
+    .page__widesection {
+      width: 100%;
+      margin: 0 0 92px 0;
+      padding: 0;
+    }
+  }
+@media screen and (min-width: 740px) and (max-width: 990px) {
+  .page__widesection {
+    width: 100%;
+    margin: 0 0 92px 0;
+  }
+}
+@media screen and (max-width: 740px) {
+  .page__widesection {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+
+@media screen and (max-width: 321px)
+{
+  .page__widesection {
+    width: 100%;
+    padding: 10px;
+  }
+}
