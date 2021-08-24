@@ -3,6 +3,13 @@
   
 }
 
+@media screen and (max-width: 768px) {
+    .footer {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+  }
+
 @media screen and (max-width: 320px) {
     .footer {
         justify-content: flex-start;

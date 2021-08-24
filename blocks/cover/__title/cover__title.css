@@ -8,8 +8,16 @@ width: 560px;
     margin: 0;
     box-sizing: border-box;
 }
+@media screen and (max-width: 768px)
+{
+    .cover__title {
+        width: 100%;
+        line-height: 77px;
+        padding: 115px 0 0 0;
 
-@media screen and (max-width: 321px)
+    }
+}
+@media screen and (max-width: 320px)
 {
     .cover__title {
         width: 100%;

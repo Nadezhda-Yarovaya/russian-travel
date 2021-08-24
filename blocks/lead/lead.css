@@ -3,4 +3,6 @@
     margin: 0 auto;
     margin-top: calc(138px - 52px - 28px); 
     outline: 2px solid salmon;*/
+    display:flex;
+    flex-direction: column;
 }

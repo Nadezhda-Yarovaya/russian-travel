@@ -5,12 +5,21 @@
 }
 
 
+@media screen and (max-width: 768px)
+{
+    .page__cover-section {
+    width: 100%;
+    padding: 0 16px;
+    margin: 6px 0 88px 0; /*66 top correct */
+  }
+}
+
+
 @media screen and (max-width: 320px)
 {
     .page__cover-section {
     width: 100%;
     padding: 0 16px;
     margin: 51px 0 64px 0; /*66 top correct */
-    box-sizing: border-box;
   }
 }

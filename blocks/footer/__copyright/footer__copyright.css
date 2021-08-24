@@ -4,6 +4,15 @@
    /* outline: 2px solid orange;*/
    padding: 0;
    padding-right: 24px;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+@media screen and (max-width:768px) {
+    .footer__copyright {
+        padding: 0;
+
+    } 
 }
 
 @media screen and (max-width: 320px) {

@@ -3,11 +3,26 @@
 
 }
 
+@media screen and (max-width: 768px)
+{
+    .places__place-position {
+        margin: 0 0 73px 0;
+    }
+    
+    .places__place-position:last-of-type {
+        margin: 0;
+    }
+    
+}
+
 @media screen and (max-width: 320px)
 {
     .places__place-position {
         margin: 0 0 50px 0;
-
+    }
+    
+    .places__place-position:last-of-type {
+        margin: 0;
     }
     
 }

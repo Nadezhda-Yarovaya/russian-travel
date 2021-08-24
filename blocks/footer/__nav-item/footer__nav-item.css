@@ -1,6 +1,16 @@
 .footer__nav-item {
 
 }
+@media screen and (max-width: 768px) {
+    .footer__nav-item {
+
+        margin: 0 18px 0 0;
+    }
+    .footer__nav-item:last-of-type {
+
+        margin: 0;
+    }
+}
 
 @media screen and (max-width: 320px) {
     .footer__nav-item {
