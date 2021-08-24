@@ -10,27 +10,27 @@
 
 @media screen and (min-width: 991px) and (max-width: 1024px) {
     .page__narrow-section  {
-        max-width: 928px;
     }
   }
 
 @media screen and (min-width: 769px) and (max-width: 991px)
 {
     .page__narrow-section  {
-        width: calc(100% - 48px);
-        margin: 0 24px 92px 24px;
     }
 
-    .lead_responsive_wide {
-        width: 100%;
-        margin: 0 0 92px 0;
-
-    }
 }
 
 @media screen and (max-width: 768px)
 {
     .page__narrow-section {
-        width: 100%;
     }
+}
+
+@media screen and (max-width: 320px)
+{
+    .page__narrow-section {
+    width: 100%;
+    margin: 0 0 64px 0;
+    padding: 0 16px;
+  }
 }

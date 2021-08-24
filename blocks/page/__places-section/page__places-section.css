@@ -1,0 +1,16 @@
+.page__places-section {
+
+}
+
+@media screen and (max-width: 320px)
+{
+    .page__places-section {
+        
+            width: 100%;
+            padding: 0;
+            margin: 0; 
+            box-sizing: border-box;
+          }
+
+    
+}

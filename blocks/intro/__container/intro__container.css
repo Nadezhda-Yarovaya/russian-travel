@@ -2,8 +2,8 @@
     width: 690px;
     margin: 0;
     box-sizing: border-box;
-   /* text-align: left;*/
-    outline: 1px solid orange;
+   /* text-align: left;
+    outline: 1px solid orange;*/
 }
 
 
@@ -30,7 +30,7 @@
 }
 
 
-@media screen and (max-width: 321px)
+@media screen and (max-width: 320px)
 {
     .intro__container {
         width: 100%;

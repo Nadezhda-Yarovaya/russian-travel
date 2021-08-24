@@ -12,7 +12,7 @@
       <header class="header page__header">
         <img src="logos/__logo.svg" alt="логотип Россия" class="header__logo" />
         <div class="header__lang-links">
-          <a href="#" class="header__lang-link selected">Ru</a>
+          <a href="#" class="header__lang-link header__lang-link_selected">Ru</a>
           <a href="#" class="header__lang-link">En</a>
         </div>
       </header>
@@ -29,55 +29,51 @@
           />
           <p class="lead__caption">ваша полка - верхняя</p>
         </section>
-        <section class="intro page__narrow-section">
+        <section class="intro page__intro-section">
           <div class="intro__container">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <h2 class="intro__title">Чего мы там
+              не видели?</h2>
             <p class="intro__text">
-              По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
-              только 36% планируют провести отпуск в родной стране. Мол, чего мы
-              тут, дома, не видели? На самом деле, Россия — это целая вселенная
-              с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
-              Путорана. А ещё увидеть все эти красоты можно без миллионов на
-              счету, загранпаспорта и многочасовых перелетов. Как, например,
-              Вера Башмакова — смелая молодая мама, которая взяла в охапку троих
-              детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по
-              родной стране. Мы выбрали и описали некоторые интересные места,
-              достойные вашего отпуска.
+              По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы
+              тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+              Путорана. А ещё увидеть все эти красоты можно <br>без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например,
+              Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по
+              родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
             </p>
             <p class="intro__list">
-              <span class="intro_spanbold">Часовых поясов</span> 11
-                <span class="intro_spanbold"
+              <span class="intro__spanbold">Часовых поясов</span> 11
+                <span class="intro__spanbold"
                   >Объектов природного наследия ЮНЕСКО</span> 12
-                 <span class="intro_spanbold">Объектов культурного наследия ЮНЕСКО</span> 16
-                <span class="intro_spanbold">Природных заповедников</span> 105
-             <span class="intro_spanbold">Аэропортов</span> 291
+                 <span class="intro__spanbold">Объектов культурного наследия ЮНЕСКО</span> 16
+                <span class="intro__spanbold">Природных заповедников</span> 105
+             <span class="intro__spanbold">Аэропортов</span> 241
             </p>
           </div>
         </section>
-        <section class="photo-grid page__widesection">
+        <section class="photo-grid page__photo-grid-section">
           <ul class="photo-grid__list">
-            <li>
+            <li class="photo-grid__item-container">
               <img
                 src="./images/photo-grid-arisa.jpg"
                 class="photo-grid__item"
                 alt=""
               />
             </li>
-            <li>
+            <li class="photo-grid__item-container">
               <img
                 src="./images/photo-grid-atharva-tulsi.jpg"
                 class="photo-grid__item"
                 alt=""
               />
             </li>
-           <!-- <li>
+            <li class="photo-grid__item-container">
               <img
                 src="./images/photo-grid-baikal.jpg"
                 class="photo-grid__item"
                 alt=""
               />
             </li>
-            <li>
+            <li class="photo-grid__item-container">
               <img
                 src="./images/photo-grid-baikal-2.jpg"
                 class="photo-grid__item"
@@ -140,52 +136,47 @@
                 class="photo-grid__item"
                 alt=""
               />
-            </li> -->
+            </li> 
           </ul>
         </section>
-        <section class="places page__narrow-section">
-          <div class="place">
+        <section class="places page__places-section">
+          <div class="place places__place-position">
             <h2 class="place__title">Куршская коса</h2>
-            <img
-              src="images/place-kosa.jpg"
-              alt="Куршская коса"
-              class="place__image"
-            />
+           
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a href="https://park-kosa.ru" class="place__link"
                 >park-kosa.ru</a
               >
             </div>
+            <img
+            src="images/place-kosa.jpg"
+            alt="Куршская коса"
+            class="place__image"
+          />
             <div class="place__text">
+              <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и
+                подёрнутого рябью волн Балтийского моря с другой. Уникальная  природная зона на краю российского анклава.</p>
               <p class="place__paragraph">
-                Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два
-                водных горизонта — спокойного Куршского залива с одной стороны и
-                подёрнутого рябью волн Балтийского моря с другой. Уникальная
-                природная зона на краю российского анклава.
-              </p>
-              <p class="place__paragraph">
-                На этом Калининградская область не заканчивается. Для
-                путешественника и исследователя там же по соседству — самая
-                западная точка России, Балтийская коса, — и немецкое наследие
-                россыпи небольших приморских городов. Атмосфера здешних мест
-                исключает суету, окуная в спокойствие природы и запах стального,
-                прохладного моря.
+                На этом Калининградская область не заканчивается. <br>Для путешественника и исследователя там же по соседству — самая
+                западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест
+                исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
               </p>
             </div>
           </div>
 
-         <!-- <div class="place">
+         <div class="place places__place-position">
             <h2 class="place__title">Кольский</h2>
-            <img
-              src="images/place-kolsky.jpg"
-              alt="Куршская коса"
-              class="place__image"
-            />
+          
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a href="#" class="place__link">National Geographic</a>
             </div>
+            <img
+            src="images/place-kolsky.jpg"
+            alt="Куршская коса"
+            class="place__image"
+          />
             <div class="place__text">
               <p class="place__paragraph">
                 Почти весь полуостров находится за Полярным кругом. Саамская
@@ -204,17 +195,18 @@
             </div>
           </div>
 
-          <div class="place">
+          <div class="place places__place-position">
             <h2 class="place__title">Алтай</h2>
-            <img
-              src="images/place-altai.jpg"
-              alt="Куршская коса"
-              class="place__image"
-            />
+           
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a href="https://facebook.com" class="place__link">Facebok</a>
             </div>
+            <img
+            src="images/place-altai.jpg"
+            alt="Куршская коса"
+            class="place__image"
+          />
             <div class="place__text">
               <p class="place__paragraph">
                 Алтай — одно из красивейших мест в России. В первую очередь
@@ -233,19 +225,20 @@
             </div>
           </div>
 
-          <div class="place">
+          <div class="place places__place-position">
             <h2 class="place__title">Зимний Байкал</h2>
-            <img
-              src="images/place-winter-baikal.jpg"
-              alt="Куршская коса"
-              class="place__image"
-            />
+         
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a href="https://vk.com/baikalmile" class="place__link"
                 >https://vk.com/baikalmile</a
               >
             </div>
+            <img
+            src="images/place-winter-baikal.jpg"
+            alt="Куршская коса"
+            class="place__image"
+          />
             <div class="place__text">
               <p class="place__paragraph">
                 Всем известен Байкал как крупнейшее озеро в мире. Многие также
@@ -263,19 +256,19 @@
             </div>
           </div>
 
-          <div class="place">
+          <div class="place places__place-position">
             <h2 class="place__title">Карелия</h2>
-            <img
-              src="images/place-winter-baikal.jpg"
-              alt="Куршская коса"
-              class="place__image"
-            />
             <div class="place__website">
               <p class="place__url-heading">URL</p>
               <a href="http://vodlozero.ru" class="place__link"
                 >http://vodlozero.ru</a
               >
             </div>
+            <img
+            src="images/place-karelia.jpg"
+            alt="Куршская коса"
+            class="place__image"
+          />
             <div class="place__text">
               <p class="place__paragraph">
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -289,31 +282,31 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </div> -->
+          </div> 
         </section>
 
-        <section class="cover page__widesection">
-          <div class="cover__overlay">
-            <h2 class="cover__title">До Байкала "на собаках"</h2>
+        <section class="cover page__cover-section">
+       <!--   <div class="cover__overlay"> -->
+            <h2 class="cover__title">До Байкала 
+              "на собаках"</h2>
             <p class="cover__subtitle">
               По мотивам учебной темы о Транссибе — путешествие от столицы до
               Байкала на электричках.
             </p>
-          </div>
         </section>
       </main>
 
       <footer class="footer page__footer">
         <nav>
-          <ul class="footer_links">
-            <li><a class="footer__link" href="#">Карты</a></li>
-            <li><a class="footer__link" href="#">Погода</a></li>
-            <li><a class="footer__link" href="#">Расписание</a></li>
-            <li><a class="footer__link" href="#">Календарь</a></li>
-            <li><a class="footer__link" href="#">Путешествия</a></li>
+          <ul class="footer__links">
+            <li class="footer__nav-item"><a class="footer__link" href="#">Карты</a></li>
+            <li class="footer__nav-item"><a class="footer__link" href="#">Погода</a></li>
+            <li class="footer__nav-item"><a class="footer__link" href="#">Расписание</a></li>
+            <li class="footer__nav-item"><a class="footer__link" href="#">Календарь</a></li>
+            <li class="footer__nav-item"><a class="footer__link" href="#">Путешествия</a></li>
           </ul>
         </nav>
-        <p class="footer__copyright">2021. Надежда Яровая</p>
+        <p class="footer__copyright">&copy; 2021. Надежда Яровая</p>
       </footer>
     </div>
   </body>

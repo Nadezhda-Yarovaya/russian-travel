@@ -4,15 +4,19 @@
     grid-gap: 16px;
     list-style-type: none;/*calc((1184px -(284px * 3))/4)*/
     padding: 0;
+    margin: 0;
 }
 
 
 
-@media screen and (max-width: 321px)
+@media screen and (max-width: 320px)
 {
     .photo-grid__list {
-        width: 100%;
-        display: block;
+        padding: 0;
+        margin: 0;
+        grid-template-columns: auto;
+        box-sizing: border-box; 
+        grid-gap: 12px;
 
     }
 }

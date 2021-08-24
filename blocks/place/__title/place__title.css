@@ -2,11 +2,11 @@
     width: 460px;
     font-size: 72px;
     line-height: 78px;
-    font-weight: 900; /* подкючить */
+    font-weight: 900; 
   grid-column: 1;
   grid-row: 1;
   margin: 0;
-    outline: 2px solid orange;
+    /*outline: 2px solid orange;*/
 }
 
 
@@ -15,9 +15,10 @@
 
 .place__title {
   width: 100%;
-  max-width: 288px;
+  box-sizing: border-box;
   font-size: 32px;
   line-height: 35px;
+  padding: 0 16px;
   
   }
 }

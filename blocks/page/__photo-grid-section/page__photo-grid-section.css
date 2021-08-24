@@ -1,0 +1,17 @@
+.page__photo-grid-section{
+    margin: 0 auto 92px;
+    width: 1184px;  
+    box-sizing: border-box;
+  
+}
+
+
+@media screen and (max-width: 320px)
+{
+    .page__photo-grid-section{
+    width: 100%;
+    padding: 0 16px;
+    margin: 66px 0 64px 0; /*64 correct */
+    box-sizing: border-box;
+  }
+}
