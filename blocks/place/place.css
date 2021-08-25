@@ -30,7 +30,7 @@
     grid-template-columns: repeat(2, minmax(240px, 340px));
   }
 }
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 560px) {
   .place {
     display: flex;
     flex-direction: column;
