@@ -26,23 +26,14 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 560px) {
   .cover__title {
     width: 100%;
-    line-height: 76px;
-    font-size: 52px;
-    padding: 115px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 535px) {
-  .cover__title {
-    width: 100%;
-    max-width: 320px;
-    line-height: 76px;
-    padding: 115px 0 0 0;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    margin: 0;
+    padding: 115px 0 0 0;
   }
 }
 

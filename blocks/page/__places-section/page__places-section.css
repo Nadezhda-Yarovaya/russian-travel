@@ -19,15 +19,8 @@
   }
 }
 
-@media screen and (max-width: 720px) {
-  .page__places-section {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-}
 
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 560px) {
   .page__places-section {
     width: 100%;
     padding: 0;

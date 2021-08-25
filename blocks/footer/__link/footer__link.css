@@ -7,7 +7,11 @@
   margin: 0;
 }
 
-@media screen and (max-width: 535px) {
+.footer__link:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 560px) {
   .footer__link {
     font-size: 18px;
     line-height: 24px;

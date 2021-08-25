@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 560px) {
   .page__footer {
     width: 100%;
     margin: 0;

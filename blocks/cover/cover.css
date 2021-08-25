@@ -48,12 +48,12 @@
     height: 480px;
   }
 }
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 560px) {
   .cover {
-    height: 420px;
+    height: 360px;
   }
   .cover::after {
-    height: 420px;
+    height: 360px;
   }
 }
 

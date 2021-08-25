@@ -7,14 +7,18 @@
   font-style: normal;
   font-weight: normal;
   box-sizing: border-box;
-  margin: 0 15px 0 0; /*18 correct )*/
-
+  margin: 0 15px 0 0;
   text-align: right;
 }
+.header__lang-link:hover {
+  cursor: pointer;
+}
+
 .header__lang-link:last-of-type {
   margin: 0;
 }
-@media screen and (max-width: 535px) {
+
+@media screen and (max-width: 560px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;

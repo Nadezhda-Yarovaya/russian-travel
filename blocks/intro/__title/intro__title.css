@@ -13,15 +13,7 @@
   }
 }
 
-@media screen and (max-width: 720px) {
-  .intro__title {
-    width: 100%;
-    max-width: 520px;
-    font-size: 34px;
-  }
-}
-
-@media screen and (max-width: 535px) {
+@media screen and (max-width: 560px) {
   .intro__title {
     width: 100%;
     max-width: 300px;
