@@ -6,13 +6,21 @@
     line-height: 100px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 32px;
+    padding-bottom: 34px;
 }
+@media screen and (max-width: 1024px)
+{
+    .lead__title {
+        width: 100%;
+        max-width: 720px;
+    }
+}
+
+
 @media screen and (max-width: 768px)
 {
     .lead__title {
         width: 100%;
-        padding-bottom: 32px;
     }
 }
 

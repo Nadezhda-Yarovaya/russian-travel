@@ -1,8 +1,18 @@
 .page__header {
   width: 1184px;
   padding: 28px 0 0 0;  
-  
+  min-height: 52px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px)
+{
+  .page__header {
+    width: 100%;    
+    /* max-width: 288px; с 288 начнется скролл */
+    margin: 0;
+    padding: 28px 48px 48px;
+  }
 }
 
 @media screen and (max-width: 768px)
@@ -22,5 +32,6 @@
     /* max-width: 288px; с 288 начнется скролл */
     margin: 0;
     padding: 16px 16px 50px;
+    min-height: 42px;
   }
 }

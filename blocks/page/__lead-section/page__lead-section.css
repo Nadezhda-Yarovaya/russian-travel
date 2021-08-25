@@ -4,11 +4,22 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1024px)
+{
+    .page__lead-section {
+    width: 100%;
+    margin: 0 0 92px 0;
+    padding: 0 48px;
+    
+  }
+}
+
 @media screen and (max-width: 768px)
 {
     .page__lead-section {
     width: 100%;
     margin: 0 0 88px 0;
+    padding: 0;
     
   }
 }

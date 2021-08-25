@@ -1,5 +1,5 @@
 .intro__container {
-    width: 690px;
+    max-width: 690px;
     margin: 0;
     box-sizing: border-box;
    /* text-align: left;
@@ -7,23 +7,17 @@
 }
 
 
-@media screen and (min-width: 991px) and (max-width: 1024px) {
+@media screen  and (max-width: 1024px) {
     .intro__container{
         max-width: 690px;
-        
+        outline: 1px solid salmon;
+        /*padding: 4px 0 0 0;        */ - line height?? 
     }
   }
-@media screen and (min-width: 740px) and (max-width: 990px) {
+
+@media screen and (max-width: 768px) {
     .intro__container {
-     
-    width: 100%;
-    margin: 0;
-        
-    }
-}
-@media screen and (max-width: 740px) {
-    .intro__container {
-        width: 100%;
+     width: 100%;
     margin: 0;
         
     }
@@ -33,7 +27,7 @@
 @media screen and (max-width: 320px)
 {
     .intro__container {
-        width: 100%;
+    width: 100%;
     margin: 0;
         
     }

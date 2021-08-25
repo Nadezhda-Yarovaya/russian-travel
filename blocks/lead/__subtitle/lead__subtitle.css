@@ -4,18 +4,24 @@
     font-size: 30px;
     line-height: 35px;
     margin: 0 auto;   
-    padding: 0 0 40px 0;
+    padding: 0 0 56px 0;
     font-style: normal;
     font-weight: normal;
 }
+@media screen and (max-width: 1024px)
+{
+    .lead__subtitle {     
+        width: 100%;  
+       /* padding: 0 0 56px 0;*/
+    }
+}
+
 
 @media screen and (max-width: 768px)
 {
     .lead__subtitle {     
         width: 100%;  
-        font-size: 30px;
-        line-height: 36px;
-        padding: 0 0 56px 0;
+      /*  padding: 0 0 56px 0;*/
     }
 }
 
