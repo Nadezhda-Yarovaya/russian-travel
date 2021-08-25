@@ -1,23 +1,17 @@
-.page__intro-section
-{
-    max-width: 984px;
-    margin: 0 auto 92px;    
+.page__intro-section {
+  max-width: 984px;
+  margin: 0 auto 92px;
+  padding: 0;
   box-sizing: border-box;
 }
 
-
-@media screen and (max-width: 1024px)
-{
+@media screen and (max-width: 1024px) {
   .page__intro-section {
-    width: 100%;
-    margin: 0 0 88px 0;
-    padding: 0 48px;
+    max-width: 928px;
   }
 }
 
-
-@media screen and (max-width: 768px)
-{
+@media screen and (max-width: 768px) {
   .page__intro-section {
     width: 100%;
     margin: 0 0 88px 0;
@@ -25,9 +19,8 @@
   }
 }
 
-@media screen and (max-width: 320px)
-{
-    .page__intro-section {
+@media screen and (max-width: 320px) {
+  .page__intro-section {
     width: 100%;
     margin: 0 0 64px 0;
     padding: 0 16px;

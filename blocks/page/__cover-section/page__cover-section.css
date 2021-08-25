@@ -1,30 +1,26 @@
 .page__cover-section {
-  width: 100%;
-  padding: 0 48px;;
-  margin: 92px 0;  
-    box-sizing: border-box;}
+  max-width: 1184px;
+  padding: 0;
+  margin: 0 auto 92px;
+}
 
-@media screen and (max-width: 1024px)
-{
-    .page__cover-section {
+@media screen and (max-width: 1024px) {
+  .page__cover-section {
     width: 100%;
+    padding: 0;
+    margin: 0 0 92px 0;
   }
 }
 
-@media screen and (max-width: 768px)
-{
-    .page__cover-section {
-    width: 100%;
+@media screen and (max-width: 768px) {
+  .page__cover-section {
     padding: 0 16px;
-    margin: 6px 0 88px 0; /*66 top correct */
+    margin: 66px 0 88px 0;
   }
 }
 
-
-@media screen and (max-width: 320px)
-{
-    .page__cover-section {
-    width: 100%;
+@media screen and (max-width: 320px) {
+  .page__cover-section {
     padding: 0 16px;
     margin: 51px 0 64px 0; /*66 top correct */
   }

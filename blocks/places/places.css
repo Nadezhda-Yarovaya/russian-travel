@@ -1,13 +1,11 @@
 .places {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-@media screen and (max-width: 320px)
-{
-    .places {
-    width:100%;
+@media screen and (max-width: 320px) {
+  .places {
+    width: 100%;
     box-sizing: border-box;
-    }
-
+  }
 }

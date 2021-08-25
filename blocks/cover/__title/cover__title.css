@@ -1,69 +1,58 @@
 .cover__title {
-max-width: 560px;
-    text-align: center;
-    
-    padding: 245px 0 0 0;
-    font-size: 72px;
-    line-height: 78px;
-    font-weight: 900;
-    font-style: normal;
-    margin: 0;
-    box-sizing: border-box;
+  max-width: 560px;
+  text-align: center;
+  padding: 245px 0 0 0;
+  font-size: 72px;
+  line-height: 78px;
+  font-weight: 900;
+  font-style: normal;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px) {
-    .cover__title {
-        width: 100%;
-        line-height: 76px;
-        padding: 195px 0 0 0;
-
-    }
+  .cover__title {
+    width: 100%;
+    line-height: 76px;
+    padding: 195px 0 0 0;
+  }
 }
 
-@media screen and (max-width: 768px)
-{
-    .cover__title {
-        width: 100%;
-        line-height: 77px;
-        padding: 115px 0 0 0;
-
-    }
+@media screen and (max-width: 768px) {
+  .cover__title {
+    width: 100%;
+    line-height: 76px;
+    padding: 115px 0 0 0;
+  }
 }
 
-@media screen and (max-width: 720px)
-{
-    .cover__title {
-        width: 100%;
-        line-height: 77px;
-        padding: 115px 0 0 0;
-
-    }
+@media screen and (max-width: 720px) {
+  .cover__title {
+    width: 100%;
+    line-height: 76px;
+    font-size: 52px;
+    padding: 115px 0 0 0;
+  }
 }
 
-@media screen and (max-width: 537px)
-{
-    .cover__title {
-        width: 100%;
-        max-width: 320px;
-        line-height: 77px;
-        padding: 115px 0 0 0;
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-
-    }
+@media screen and (max-width: 535px) {
+  .cover__title {
+    width: 100%;
+    max-width: 320px;
+    line-height: 76px;
+    padding: 115px 0 0 0;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
 
-@media screen and (max-width: 320px)
-{
-    .cover__title {
-        width: 100%;
-        max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-        margin: 0;
-        padding: 33px 0 0 0;
-        white-space: pre-line;
-
-    }
+@media screen and (max-width: 320px) {
+  .cover__title {
+    width: 100%;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0;
+    padding: 33px 0 0 0;
+  }
 }

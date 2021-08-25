@@ -1,21 +1,19 @@
 .footer {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-  
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
-@media screen and (max-width: 720px) {
-    .footer {
-        justify-content: flex-start;
-        flex-direction: column;
-    }
-  }
-  
 
-@media screen and (max-width: 320px) {
-    .footer {
-        justify-content: flex-start;
-        flex-direction: column;
-    }
+@media screen and (max-width: 720px) {
+  .footer {
+    justify-content: flex-start;
+    flex-direction: column;
   }
-  
+}
+
+@media screen and (max-width: 535px) {
+  .footer {
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+}
