@@ -1,8 +1,7 @@
 .page__intro-section
 {
-    width: 984px;
-    margin: 0 auto;    
-  margin-bottom: 92px;  
+    max-width: 984px;
+    margin: 0 auto 92px;    
   box-sizing: border-box;
 }
 

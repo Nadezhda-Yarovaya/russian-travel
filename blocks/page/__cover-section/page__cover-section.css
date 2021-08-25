@@ -1,14 +1,12 @@
 .page__cover-section {
-    margin: 92px auto;
-    width: 1184px;  
-    box-sizing: border-box;
-}
+  max-width: 1184px;
+    padding: 0;
+    margin: 92px 48px;}
 
 @media screen and (max-width: 1024px)
 {
     .page__cover-section {
     width: 100%;
-    padding: 0x;
   }
 }
 

@@ -1,7 +1,7 @@
 .page__lead-section {
-    width: 984px;
-    margin: 48px auto 64px;
-  box-sizing: border-box;
+  max-width: 984px;
+  margin: 0 auto 92px;    
+box-sizing: border-box;
 }
 
 @media screen and (max-width: 1024px)

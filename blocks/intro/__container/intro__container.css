@@ -9,17 +9,14 @@
 
 @media screen  and (max-width: 1024px) {
     .intro__container{
-        max-width: 690px;
-        outline: 1px solid salmon;
-        /*padding: 4px 0 0 0;        */ - line height?? 
+        /*padding: 4px 0 0 0;         - line height?? */
     }
   }
 
 @media screen and (max-width: 768px) {
     .intro__container {
      width: 100%;
-    margin: 0;
-        
+    margin: 0;        
     }
 }
 
