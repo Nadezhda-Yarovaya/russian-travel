@@ -12,7 +12,7 @@
 {
     .lead__title {
         width: 100%;
-        max-width: 720px;
+        max-width: 768px;
         padding-bottom: 34px;
     }
 }
@@ -22,8 +22,28 @@
 {
     .lead__title {
         width: 100%;
+        max-width: 720px;
+        font-size: 74px;
     }
 }
+
+@media screen and (max-width: 720px)
+{
+    .lead__title {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 537px)
+{
+    .lead__title {
+        width: 100%;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+
 
 
 @media screen and (max-width: 320px)
