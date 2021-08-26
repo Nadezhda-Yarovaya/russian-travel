@@ -5,9 +5,10 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .page__photo-grid-section {
-    max-width: 928px;
+    width: 100%;
+    padding: 0 48px;
   }
 }
 
@@ -21,7 +22,6 @@
 
 @media screen and (max-width: 320px) {
   .page__photo-grid-section {
-    width: 100%;
     padding: 0 16px;
     margin: 0 0 64px 0;
   }

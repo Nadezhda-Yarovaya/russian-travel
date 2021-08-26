@@ -2,13 +2,10 @@
   grid-row: 1;
   grid-column: 2;
   align-self: end;
-  /*outline: 2px solid orange;*/
 }
 
 @media screen and (max-width: 320px) {
   .place__website {
-    /*grid-row: 2;
-        grid-column: 1;*/
     width: 100%;
     margin: 32px 0;
     padding: 0 16px;

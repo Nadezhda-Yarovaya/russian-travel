@@ -1,0 +1,14 @@
+.cover__link {
+  display: block;
+  width: inherit;
+  min-height: inherit;
+  background-color: rgba(42, 44, 47, 0.3);
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.8s ease;
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+  cursor: url(../../../images/cursor-pointer.svg), pointer;
+}

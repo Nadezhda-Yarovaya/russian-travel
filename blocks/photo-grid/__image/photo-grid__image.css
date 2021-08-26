@@ -1,6 +1,7 @@
 .photo-grid__image {
   /*outline:2px solid orange;*/
   object-fit: cover;
+  object-position: center;
   padding: 0;
   margin: 0;
   width: 100%;

@@ -6,14 +6,14 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .page__footer {
-    max-width: 928px;
+    width: 100%;
+    padding: 0 48px 24px;
   }
 }
 @media screen and (max-width: 768px) {
   .page__footer {
-    width: 100%;
     margin: 0;
     padding: 0 24px 24px;
   }
@@ -21,16 +21,6 @@
 
 @media screen and (max-width: 560px) {
   .page__footer {
-    width: 100%;
-    margin: 0;
-    padding: 0 16px 24px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page__footer {
-    width: 100%;
-    margin: 0;
     padding: 0 16px 24px;
   }
 }
