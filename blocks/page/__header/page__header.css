@@ -1,7 +1,7 @@
 .page__header {
   max-width: 1184px;
-  margin: 0 auto 56px;
   padding: 28px 0 0 0;
+  margin: 0 auto 56px;
   min-height: 52px;
   box-sizing: border-box;
 }
@@ -9,8 +9,15 @@
 @media screen and (max-width: 1279px) {
   .page__header {
     width: 100%;
+    max-width: calc(1279px - (48px * 2));
     padding: 28px 48px 0;
     margin: 0 auto 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page__header {
+    margin: 0 0 48px 0;
   }
 }
 

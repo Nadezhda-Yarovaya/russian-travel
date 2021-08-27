@@ -8,7 +8,15 @@
 @media screen and (max-width: 1279px) {
   .page__photo-grid-section {
     width: 100%;
+    max-width: calc(1279px - (48px * 2));
     padding: 0 48px;
+    margin: 0 auto 92px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page__photo-grid-section {
+    margin: 0 0 92px 0;
   }
 }
 

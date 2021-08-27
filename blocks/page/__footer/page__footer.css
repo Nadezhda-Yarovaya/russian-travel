@@ -1,20 +1,28 @@
 .page__footer {
   max-width: 1184px;
-  margin: 0 auto;
   padding: 0 0 24px 0;
+  margin: 0 auto;
   min-height: 18px;
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .page__footer {
     width: 100%;
+    max-width: calc(1279px - (48px * 2));
     padding: 0 48px 24px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .page__footer {
+    padding: 0 48px 24px;
+    margin: 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .page__footer {
-    margin: 0;
     padding: 0 24px 24px;
   }
 }
