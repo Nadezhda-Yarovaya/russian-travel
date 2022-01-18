@@ -8,5 +8,5 @@
 
 **GitHub Pages**
 
-* [Ссылка на GitHub Pages](https://nadezhda-yarovaya.github.io/russian-travel/)
+[Ссылка на GitHub Pages](https://nadezhda-yarovaya.github.io/russian-travel/)
 
